@@ -9,7 +9,7 @@ This analysis leverages three powerful machine learning models to predict loan d
 - Support Vector Classifier (SVC)
 - Logistic Regression
 
-### 📋 Dataset Features
+### Dataset Features
 I used a datase from Kaggle with the following features:
 - Age
 - Education level 
@@ -29,7 +29,7 @@ I used a datase from Kaggle with the following features:
 
 > **Key Finding**: AdaBoost and Logistic Regression demonstrated superior performance with identical accuracy scores.
 
-## 🛠 Installation
+## Installation
 
 Required dependencies:
 ```python
