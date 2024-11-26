@@ -1,13 +1,15 @@
 # Credit Risk Analysis
 
-> An advanced machine learning project for predicting loan defaults using customer data analytics.
+> A Machine learning Project for predicting loan defaults using customer data analytics.
 
 ## Overview
 
-This analysis leverages three powerful machine learning models to predict loan defaults:
+This analysis leverages three ML models to predict loan defaults:
 - AdaBoost Classifier 
 - Support Vector Classifier (SVC)
 - Logistic Regression
+
+All of these models were cross-validated for the hyper-parameter selection using 5-fold CV.
 
 ### Dataset Features
 I used a datase from Kaggle with the following features:
@@ -27,7 +29,7 @@ I used a datase from Kaggle with the following features:
 | SVC | 80.00% |
 | Logistic Regression | 82.14% |
 
-> **Key Finding**: AdaBoost and Logistic Regression demonstrated superior performance with identical accuracy scores.
+> **Key Finding**: AdaBoost and Logistic Regression demonstrated superior performance with identical test accuracy scores, but Logistic Regression showed more stable cross-validation performance.
 
 ## Installation
 
